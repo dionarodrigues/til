@@ -51,18 +51,20 @@ The `exclude` property allows to improve the performance of IntelliSense by spec
 
 If you are using eslint in your project, it will receive many complaints about the imports with the prefix '~'.
 
-Fortunately, there is a library that serves to let eslint knows that everything is right.
+Fortunately, there is a dependency that serves to let eslint knows that everything is right: `eslint-import-resolver-babel-plugin-root-import` .
 
-We can solve this problem adding the `eslint-import-resolver-babel-plugin-root-import` dependency.
+Installing the dependency using yarn:
 
-`babylu@Project: ~$ yarn add eslint-import-resolver-babel-plugin-root-import -D`
+`yarn add eslint-import-resolver-babel-plugin-root-import -D`
 
 And in the eslint configuration file include the following properties:
 
 ```json
 "settings": {
-    "import/resolver": {
-      "babel-plugin-root-import": {}
-    }
-  }
+  "import/resolver": {
+    "babel-plugin-root-import": {
+      "rootPathSuffix": "src"
+    },
+  },
+},
 ```
