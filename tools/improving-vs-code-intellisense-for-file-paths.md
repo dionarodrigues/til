@@ -44,4 +44,4 @@ Another example with multiple paths from root directory:
 
 The `exclude` property allows to improve the performance of IntelliSense by specifying folders which are not part of the project's source code.
 
-[More information about jsconfig.json](http://https://code.visualstudio.com/docs/languages/jsconfig "adding a jsconfig.json").
+[More information about jsconfig.json](https://code.visualstudio.com/docs/languages/jsconfig).
