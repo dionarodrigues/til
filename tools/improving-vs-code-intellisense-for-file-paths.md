@@ -10,8 +10,6 @@ instead of
 
 These relative imports are not recommended because they are difficult to maintain in case of refactoring. 
 
-![Using jsconfig.json to improve VS Code IntelliSense](https://user-images.githubusercontent.com/2319449/70345363-a72aef00-183a-11ea-83d5-24bcbb09bbfd.gif)
-
 **We can use this IntelliSense in VS Code by adding a `jsconfig.json` file to our project.**
 
 ```json
@@ -26,7 +24,9 @@ These relative imports are not recommended because they are difficult to maintai
 ```
 It should now work with absolute import support using the ~/ prefix. Eg.: `import MyComponent from '~/components/MyComponent.js'`.
 
-One more example with multiple paths from root directory:
+![Using jsconfig.json to improve VS Code IntelliSense](https://user-images.githubusercontent.com/2319449/70345363-a72aef00-183a-11ea-83d5-24bcbb09bbfd.gif)
+
+Another example with multiple paths from root directory:
 
 ```json
 {
