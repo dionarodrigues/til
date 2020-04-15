@@ -45,3 +45,24 @@ Another example with multiple paths from root directory:
 The `exclude` property allows to improve the performance of IntelliSense by specifying folders which are not part of the project's source code.
 
 [More information about jsconfig.json](https://code.visualstudio.com/docs/languages/jsconfig).
+
+
+## Fixing Absolute paths in eslint
+
+If you are using eslint in your project, it will receive many complaints about the imports with the prefix '~'.
+
+Fortunately, there is a library that serves to let eslint knows that everything is right.
+
+We can solve this problem adding the `eslint-import-resolver-babel-plugin-root-import` dependency.
+
+`babylu@Project: ~$ yarn add eslint-import-resolver-babel-plugin-root-import -D`
+
+And in the eslint configuration file include the following properties:
+
+```json
+"settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": {}
+    }
+  }
+```
