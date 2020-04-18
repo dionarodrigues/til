@@ -1,6 +1,6 @@
 # 😍 Animated Circle Image with SVG and CSS
 
-<div style="text-align:center">![Animated Circle Text](https://raw.githubusercontent.com/diogorodrigues/til/master/_images/circle-text.gif "Animated Circle Text")</div>
+<div style="text-align:center"><img src="../_images/circle-text.gif" width="250" alt="Animated Circle Text" /></div>
 
 Check the code in my [Codepen](https://codepen.io/diogorodrigues/pen/mdJNwLv).
 
