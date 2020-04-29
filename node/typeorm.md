@@ -15,7 +15,7 @@ Next I need to create a new connection from the configuration file as you can se
 
 ## Working with migrations
 
-To work with migrations I needed to apply the following settings to my `ormconfig.json` file:
+To work with [migrations](https://github.com/typeorm/typeorm/blob/master/docs/migrations.md) I needed to apply the following settings to my `ormconfig.json` file:
 
 ```
 {
@@ -28,13 +28,14 @@ To work with migrations I needed to apply the following settings to my `ormconfi
 }
 ```
 
-And add the following command to my `package.json file`:
+And add the following command to my `package.json` file:
 
 `"typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"`
 
 Then we'll able to run the following commands to create and run migrations:
 
 `yarn typeorm migration:create -n CreateAppointments`
+
 `yarn typeorm migration:run`
 
 More information on migrations can be found [here](https://github.com/typeorm/typeorm/blob/master/docs/migrations.md).
