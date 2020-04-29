@@ -11,7 +11,36 @@ To start the adventure with this library I had to run the following command to i
 
 `yarn add typeorm pg -D`
 
+Next I need to create a new connection from the configuration file as you can see in this [documentation](https://github.com/typeorm/typeorm/blob/master/docs/using-ormconfig.md).
+
+## Working with migrations
+
+To work with migrations I needed to apply the following settings to my `ormconfig.json` file:
+
+```
+{
+  "migrations": [
+    "./src/database/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
+```
+
+And add the following command to my `package.json file`:
+
+`"typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"`
+
+Then we'll able to run the following commands to create and run migrations:
+
+`yarn typeorm migration:create -n CreateAppointments`
+`yarn typeorm migration:run`
+
+More information on migrations can be found [here](https://github.com/typeorm/typeorm/blob/master/docs/migrations.md).
+
 Cheers
+
 
 
 
