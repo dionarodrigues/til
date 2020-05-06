@@ -4,7 +4,7 @@ __The [bcryptjs](https://www.npmjs.com/package/bcryptjs) library on NPM makes it
 
 ---
 
-## Some features of bcrypt
+## Some features of bcryptjs
 
 - __Salted hashing__: Generating random bytes (the salt) and combining it with the password before hashing creates unique hashes across each user’s password. If two users have the same password they will not have the same password hash.
 
