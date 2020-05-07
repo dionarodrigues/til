@@ -6,7 +6,7 @@ __JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and
 
 ## How does JWT work?
 
-<div style="text-align:center"><img src="../_images/jwt.jpg" width="250" alt="Animated Circle Text" /></div>
+<div style="text-align:center;max-width:100%;"><img src="../_images/jwt.jpg" width="600" alt="Animated Circle Text" /></div>
 
  A JWT is made of 3 parts: the Header, the Payload and the Signature.
 
@@ -35,12 +35,15 @@ __JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and
  }
  ```
 
- Then, this JSON is Base64Url encoded to form the second part of the JWT.
- It's necessary take care about the information we put here, because it can be decoded. Usually this payload can be used to pass the user's ID through the application.
+ The payload is then Base64Url encoded to form the second part of the JSON Web Token.
+
+It is necessary to be careful with the information we put here, as it can be decoded. Typically, this payload can be used to pass the user ID through the application, for example.
 
  - __Signature__: The last part of a JWT is the signature, which is a Message Authentication Code (or MAC). The signature of a JWT can only be produced by someone in possession of both the payload (plus the header) and a given secret key.
 
 A secret key is a private string. It must be strong enough to maintain data security.
+
+More info about JWT [here](https://jwt.io/introduction/).
 
 ## How to use JWT to the JSON project
 
@@ -50,7 +53,7 @@ Then we can just import a method called `sign` and pass these info: `jwt.sign(pa
 
 ## How to generate a strong Secret Key
 
-I can use some of the following tools to pass some string and get the MD5 hash version of it:
+There are many tools we can use to pass some string and get the MD5 hash version of it:
 
 - [md5](http://www.md5.cz/)
 - [md5hashgenerator](https://www.md5hashgenerator.com/)
