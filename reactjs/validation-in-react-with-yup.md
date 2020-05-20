@@ -14,6 +14,8 @@ Let’s use form validation as a use case for our Yup example.
 This is the type of data I am expecting from a form, or my schema for a particular object. If my object does not match this schema, it is not valid.
 
 ```
+import * as Yup from 'yup';
+
 const schema = Yup.object().shape({
   name: Yup.string().required('Name is required'),
   email: Yup.string()
