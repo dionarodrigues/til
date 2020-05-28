@@ -14,6 +14,8 @@ We can check the “postscript name” of a font file in Font book and keep the 
 
 Let's take a look at the steps.
 
+---
+
 ## Steps to add a custom font in React Native project
 
 ### Step 1: Add Fonts to Assets
@@ -45,13 +47,13 @@ Link command will links fonts in Info.plst for IOS and creates fonts directory (
 Finally you can use font in styles:
 
 ```
-fontFamily: "SFUIDisplay-Bold"
+fontFamily: "Museo500-Regular"
 ```
 
 or, if you are using Styled Components:
 
 ```
-font-family: "SFUIDisplay-Bold"
+font-family: "Museo500-Regular"
 ```
 
 
