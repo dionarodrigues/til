@@ -52,7 +52,7 @@ yarn storybook
 
 - __When using [react-router-dom](https://www.npmjs.com/package/react-router-dom)__ in some component that contains a story you need to set a configuration to storybook handle it. You can do it by using the [storybook-router dependency](https://www.npmjs.com/package/storybook-react-router).
 
-
+-__When using [Material UI](https://material-ui.com/)__ [this is a great tutorial](https://medium.com/encode/setting-up-storybook-with-material-ui-and-styled-components-5bdacb6db866) to add the correct settings.
 
 
 
