@@ -2,13 +2,13 @@
 
 __[Puppeteer](https://github.com/puppeteer/puppeteer) is a Node library which provides a high-level API to control Chrome or Chromium over the DevTools Protocol. Puppeteer runs headless by default, but can be configured to run full (non-headless) Chrome or Chromium.__
 
-It’s basically a browser which we can run from Node.js and that can be used to generate screenshots and PDFs of pages. And like its documentation says: most things that we can do manually in the browser can be done using Puppeteer!
+Maintained by Chrome DevTools team, It’s basically a browser which we can run from Node.js and that can be used to generate screenshots and PDFs of pages. And like its documentation says: most things that we can do manually in the browser can be done using Puppeteer!
 
 Let's take a look at how this amazing library is implemented.
 
 ---
 
-## Creating a PDF from a existing websie
+## Creating a PDF from a existing website
 
 ```
 const puppeteer = require('puppeteer');
