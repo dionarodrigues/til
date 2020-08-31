@@ -27,4 +27,6 @@ It doesn't matter where you will display the content. The CMS will provide the A
 
 -- 
 
-I created this [landing page with Strapi and NextJS](https://github.com/diogorodrigues/labs/tree/master/landingpage-nextjs-strapi) to do some tests with Strapi and NextJS together. 👌😎
+I created this [landing page with Strapi and NextJS](https://github.com/diogorodrigues/labs/tree/master/landingpage-nextjs-strapi) to do some tests with Strapi and NextJS together. 
+
+This is the [live demo of the landing page in Netlify](https://nextjs-netlify-test.netlify.app/). 👌😎
