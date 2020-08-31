@@ -1,5 +1,7 @@
 # Strapi headless CMS
 
+<div style="text-align:center"><img src="../_images/strapi.png" width="100%" alt="Strapi CMS Dashboard" /></div>
+
 __[Strapi](https://strapi.io/) is the leading open-source headless CMS. It’s 100% Javascript, fully customizable and developer-first.__
 
 Using Strapi is really super easy, since it's built on top of React. With just only one [command with yarn/npx](https://strapi.io/documentation/v3.x/installation/cli.html#step-2-create-a-new-project) we can start a new project using this amazing headless CMS (we access its content using an API and it doesn't care about how and where its content gets displayed).
