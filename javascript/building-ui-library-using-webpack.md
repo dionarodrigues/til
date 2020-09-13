@@ -1,4 +1,4 @@
-# Building a simple UI Library using Bebpack and Babel
+# Building a simple UI Library using Webpack and Babel
 
 __[Webpack](https://webpack.js.org/) is a static module bundler for modern JavaScript applications. [Babel](https://babeljs.io/) is a JavaScript compiler used to convert ECMAScript 2015+ code into a compatible version of JavaScript in current and older browsers or environments.__
 
