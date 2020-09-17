@@ -2,9 +2,9 @@
 
 __[Plop](https://plopjs.com/) is a little tool that saves you time and helps your team build new files with consistency. Plop generates code when you want, how you want, and can be changed whenever you want.__
 
-Ive been using this amazing tool to generate new component files for my React applications, but we can use it for many types of code structure using Node.js.
+I've been using this amazing tool to generate new component files for my React applications, but we can use it for many types of code structure using Node.js.
 
-I'll show how we can set this tool for React projects, but feel free to adapt it to your  project needs. 
+I'll show you how we can set this tool for React projects, but feel free to adapt it to your project needs. 
 
 ## Add plop to your project
 
@@ -121,7 +121,13 @@ I'm also using [handlebars](https://handlebarsjs.com/) in my files.
 ## Add the command in the package.json
 
 ```
-"generate": "yarn plop --plopfile generators/plopfile.js",
+"generate": "yarn plop --plopfile generators/plopfile.js"
+```
+
+## Generate the files
+
+```
+yarn generate Button
 ```
 
 -- 
